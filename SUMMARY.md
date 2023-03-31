@@ -25,3 +25,7 @@
       * [6.3 PromQL로 메트릭 데이터 추출하기](kubenetes/undefined/6./6.3-promql.md)
 * [Kotlin](kotlin.md)
 * [Java](java.md)
+* [DataBase](database/README.md)
+  * [Real MySQL 8.0 (1)](database/real-mysql-8.0-1/README.md)
+    * [02. 설치와 설정](database/real-mysql-8.0-1/02..md)
+    * [03. 사용자 및 권한](database/real-mysql-8.0-1/03..md)
