@@ -29,4 +29,5 @@
   * [Real MySQL 8.0 (1)](database/real-mysql-8.0-1/README.md)
     * [02. 설치와 설정](database/real-mysql-8.0-1/02..md)
     * [03. 사용자 및 권한](database/real-mysql-8.0-1/03..md)
-    * [04. 아키텍처](database/real-mysql-8.0-1/04..md)
+    * [04. 아키텍처](database/real-mysql-8.0-1/04./README.md)
+      * [4.1 MySQL 엔진 아키텍처](database/real-mysql-8.0-1/04./04..md)
