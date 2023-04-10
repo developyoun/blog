@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
+* [Settings](settings/README.md)
+  * [Mac에서 한글입력시 원화표시(₩) 대신 백쿼트(\`) 적용하기](settings/mac-krw.md)
 * [Kubenetes](kubenetes/README.md)
   * [컨테이너 인프라 환경 구축을 위한 쿠버네티스/도커](kubenetes/undefined/README.md)
     * [3장. 컨테이너를 다루는 표준 아키텍처, 쿠버네티스](kubenetes/undefined/3-./README.md)
@@ -31,3 +33,4 @@
     * [03. 사용자 및 권한](database/real-mysql-8.0-1/03..md)
     * [04. 아키텍처](database/real-mysql-8.0-1/04./README.md)
       * [4.1 MySQL 엔진 아키텍처](database/real-mysql-8.0-1/04./4.1.md)
+      * [4.2 InnoDB 스토리지 엔진 아키텍처](database/real-mysql-8.0-1/04./4.2-innodb.md)
