@@ -3,6 +3,7 @@
 * [Home](README.md)
 * [Settings](settings/README.md)
   * [Mac에서 한글입력시 원화표시(₩) 대신 백쿼트(\`) 적용하기](settings/mac-krw.md)
+  * [IntelliJ의 사용위치 알림 해제하기](settings/intellij.md)
 * [Kubenetes](kubenetes/README.md)
   * [컨테이너 인프라 환경 구축을 위한 쿠버네티스/도커](kubenetes/undefined/README.md)
     * [3장. 컨테이너를 다루는 표준 아키텍처, 쿠버네티스](kubenetes/undefined/3-./README.md)

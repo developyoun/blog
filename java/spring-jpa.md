@@ -32,13 +32,21 @@ spring:
       properties.hibernate.format_sql: true
 ```
 
-> **spring.jpa.properties.hibernate.format\_sql ?** 하이버네이트가 SQL 쿼리를 로깅할 때, 해당 쿼리를 보기 좋게 포맷팅해주는 옵션(true/false). 이 옵션은 SQL 쿼리를 보기 좋게 출력하여 해당 쿼리의 문제점을 파악하기 쉽게 해준다.&#x20;
+> **spring.jpa.properties.hibernate.format\_sql ?**&#x20;
 >
-> **spring.jpa.properties.hibernate.show\_sql ?** 하이버네이트가 실행하는 SQL 쿼리를 콘솔에 출력할지 여부를 지정하는 옵션(true/false). 이 옵션을 사용하면 하이버네이트가 실행하는 SQL 쿼리를 실시간으로 살펴볼 수 있어 문제가 발생했을 때 해당 쿼리를 분석하고 디버깅하는 데 좋지만, 실제 운영 환경에서는 보안상의 이유로 이 옵션을 사용해서는 안된다.
+> 하이버네이트가 SQL 쿼리를 로깅할 때, 해당 쿼리를 보기 좋게 포맷팅해주는 옵션(true/false). 이 옵션은 SQL 쿼리를 보기 좋게 출력하여 해당 쿼리의 문제점을 파악하기 쉽게 해준다.&#x20;
 >
-> **spring.jpa.properties.hibernate.use\_sql\_comments ?** 하이버네이트가 생성하는 SQL 쿼리에 주석을 추가할지 여부를 지정하는 옵션(true/false) 이 값이 활성화된 경우, 하이버네이트는 생성하는 SQL 쿼리에 엔티티, 컬럼 등과 같은 객체와 매핑된 정보를 주석으로 추가한다. 이를 통해 생성된 SQL 쿼리를 읽는 것이 쉬워지고, 유지 보수나 디버깅이 용이해진다.
+> **spring.jpa.properties.hibernate.show\_sql ?**&#x20;
 >
-> **spring.datasource.hibernate.ddl-auto ?** 하이버네이트가 어플리케이션 시작시에, 데이터베이스 스키마를 생성, 수정, 검증하는 방법을 지정하는 옵션이다.
+> 하이버네이트가 실행하는 SQL 쿼리를 콘솔에 출력할지 여부를 지정하는 옵션(true/false). 이 옵션을 사용하면 하이버네이트가 실행하는 SQL 쿼리를 실시간으로 살펴볼 수 있어 문제가 발생했을 때 해당 쿼리를 분석하고 디버깅하는 데 좋지만, 실제 운영 환경에서는 보안상의 이유로 이 옵션을 사용해서는 안된다.
+>
+> **spring.jpa.properties.hibernate.use\_sql\_comments ?**&#x20;
+>
+> 하이버네이트가 생성하는 SQL 쿼리에 주석을 추가할지 여부를 지정하는 옵션(true/false) 이 값이 활성화된 경우, 하이버네이트는 생성하는 SQL 쿼리에 엔티티, 컬럼 등과 같은 객체와 매핑된 정보를 주석으로 추가한다. 이를 통해 생성된 SQL 쿼리를 읽는 것이 쉬워지고, 유지 보수나 디버깅이 용이해진다.
+>
+> **spring.datasource.hibernate.ddl-auto ?**&#x20;
+>
+> 하이버네이트가 어플리케이션 시작시에, 데이터베이스 스키마를 생성, 수정, 검증하는 방법을 지정하는 옵션이다.
 
 `Spring.jpa.hibernate.ddl-auto` 속성은 아래와 같은 값들이 있다.
 
