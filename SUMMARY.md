@@ -34,3 +34,4 @@
     * [04. 아키텍처](database/real-mysql-8.0-1/04./README.md)
       * [4.1 MySQL 엔진 아키텍처](database/real-mysql-8.0-1/04./4.1.md)
       * [4.2 InnoDB 스토리지 엔진 아키텍처](database/real-mysql-8.0-1/04./4.2-innodb.md)
+      * [4.3 MyISAM 스토리지 엔진 아키텍처](database/real-mysql-8.0-1/04./4.3-myisam.md)
