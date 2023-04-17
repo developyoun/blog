@@ -16,39 +16,39 @@ DB connection이란, 어플리케이션과 데이터베이스의 연결을 의�
 
 #### JDBC를 이용한 어플리케이션의 구조
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### JDBC의 실행 순서
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 1. **JDBC 드라이버 로딩**
 
 * 자바에서 데이터베이스와 연결하기 위해 JDBC 드라이버를 로딩하는 과정
 * 일반적으로 JDBC 드라이버는 `Class.forName()` 메서드를 사용하여 로딩한다.
 
-3. **DB Connection 생성 (데이터베이스 연결)**
+2. **DB Connection 생성 (데이터베이스 연결)**
 
 * JDBC 드라이버를 로딩한 후, `DriverManager.getConnection()` 메서드를  호출해 데이터베이스와 연결을 시도한다.
 * 연결 문자열(URL)을 인자로 전달하여 데이터베이스 정보를 지정한다.
 
-5. **Statement 생성**
+3. **Statement 생성**
 
 * Connection 객체에서 `createStatement()` 메서드를 호출하여 Statement 객체를 생성한다.
 * Statement 객체는 SQL문을 실행하는 데 사용한다.
 
-7. **SQL 실행**
+4. **SQL 실행**
 
 * Statement 객체에서 `executeQuery()` 메서드나, `executeUpdate()` 메서드를 호출하여 SQL문을 실행한다.
 * `executeQuery()` 메서드는 SELECT문을 실행한다
 * `executeUpdate()` 메서드는 INSERT, UPDATE, DELETE 문을 실행하고 영향받은 행의 수를 반환한다.
 
-9. **결과 처리 (결과 받기)**
+5. **결과 처리 (결과 받기)**
 
 * `executeQuery()` 메서드로 반환된 결과 집합은 ResultSet 객체로 처리된다.
 * ResultSet 객체에서 `next()` 메서드를 호출하여 다음행으로 이동하고, `getXXX()` 메서드를 이용해 각 컬럼의 값을 가져올 수 있다.
 
-11. **연결 해제**
+6. **연결 해제**
 
 * SQL 문 실행이 끝나면 Statement, ResultSet, Connection 객체 등의 자원을 명시적으로 해제한다.
 * 이때, `close()` 메서드를 사용한다.
