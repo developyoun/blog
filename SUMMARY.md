@@ -29,6 +29,7 @@
 * [Kotlin](kotlin.md)
 * [Java](java/README.md)
   * [Spring에 JPA 연동하기](java/spring-jpa.md)
+  * [DB Connection](java/db-connection.md)
 * [DataBase](database/README.md)
   * [Real MySQL 8.0 (1)](database/real-mysql-8.0-1/README.md)
     * [02. 설치와 설정](database/real-mysql-8.0-1/02..md)
