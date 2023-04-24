@@ -27,7 +27,7 @@
       * [6.2 프로메테우스로 모니터링 데이터 수집과 통합하기](kubenetes/undefined/6./6.2.md)
       * [6.3 PromQL로 메트릭 데이터 추출하기](kubenetes/undefined/6./6.3-promql.md)
 * [Kotlin](kotlin/README.md)
-  * [Java LocalDateTime](kotlin/java-localdatetime.md)
+  * [LocalDateTime](kotlin/localdatetime.md)
 * [Spring](java/README.md)
   * [Spring에 JPA 연동하기](java/spring-jpa.md)
   * [DB Connection](java/db-connection.md)
