@@ -1,8 +1,5 @@
 # LocalDateTime
 
-> 레퍼런스\
-> [https://covenant.tistory.com/255](https://covenant.tistory.com/255)
-
 자바에서는 LocalDate, LocalTime, LocalDateTime 등 다양한 날짜 및 시간을 다룰 수 있게 해주는 내장 라이브러리가 존재합니다.개인적으론 `LocalDateTime` 을 정말 자주 사용했던거 같은데, 맨날 검색하는 시간이 아까워서 직접 정리하며 리마인드 하기 위해 직접 작성해 보려 합니다.
 
 ###
@@ -157,3 +154,7 @@ println(localDateTime.toLocalTime())
 
 이렇게 보면, LocalDateTime으로 생성해서 다른 시간타입으로 변환해 사용하는 것이 좋을 듯 합니다.
 
+
+
+> 레퍼런스\
+> [https://covenant.tistory.com/255](https://covenant.tistory.com/255)
