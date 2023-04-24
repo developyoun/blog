@@ -14,11 +14,11 @@ DB connection이란, 어플리케이션과 데이터베이스의 연결을 의�
 > JDBC를 이용하면 자바 어플리케이션에서 데이터베이스와 통신하여 데이터를 읽고 쓸 수 있다.\
 > 일반적으로 JDBC 드라이버라는 클래스를 사용하여 데이터베이스와 연결하는데, DBMS에 맞게 JDBC 드라이버를 다운로드하고 설치해야 한다.
 
-#### JDBC를 이용한 어플리케이션의 구조
+### JDBC를 이용한 어플리케이션의 구조
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-#### JDBC의 실행 순서
+### JDBC의 실행 순서
 
 <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
