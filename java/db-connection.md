@@ -16,11 +16,11 @@ DB connection이란, 어플리케이션과 데이터베이스의 연결을 의�
 
 #### JDBC를 이용한 어플리케이션의 구조
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 #### JDBC의 실행 순서
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **JDBC 드라이버 로딩**
 

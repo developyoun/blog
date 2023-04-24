@@ -60,7 +60,7 @@ none을 제외한 모든 옵션은 데이터베이스 스키마를 생성 또는
 
 ### 3. 제대로 연결 했는지 확인하기
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 제대로 연결됨을 확인할 수 있다.
 

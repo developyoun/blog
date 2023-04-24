@@ -4,7 +4,7 @@
 
 ### ✔️ 문제점
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 인텔리제이로 작업하다가 위와 같이 `0개의 사용위치`  이런식으로 나타난다. 별로 티는 안나지만, 라인을 잡아놓고 있어서 클래스위나, 메서드위에 어노테이션이 발생하고 있어서 은근히 거슬림,,,,\
 
@@ -13,4 +13,4 @@
 
 Setting → Editor → Inlay Hints → 사용위치(Usages)를 해제하면 된다.참고로, 상속자 및 코드 작성자도 사용위치 처럼 나오기 때문에 함께 해제해줬다.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>

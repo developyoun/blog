@@ -39,3 +39,8 @@
       * [4.2 InnoDB 스토리지 엔진 아키텍처](database/real-mysql-8.0-1/04./4.2-innodb.md)
       * [4.3 MyISAM 스토리지 엔진 아키텍처](database/real-mysql-8.0-1/04./4.3-myisam.md)
       * [4.4 MySQL 로그 파일](database/real-mysql-8.0-1/04./4.4.md)
+    * [05. 트랜잭션](database/real-mysql-8.0-1/05./README.md)
+      * [5.1 트랜잭션](database/real-mysql-8.0-1/05./5.1.md)
+      * [5.2 MySQL 엔진의 잠금](database/real-mysql-8.0-1/05./5.2-mysql.md)
+      * [5.3 InnoDB 스토리지 엔진 잠금](database/real-mysql-8.0-1/05./5.3-innodb.md)
+      * [5.4 MySQL의 격리 수준](database/real-mysql-8.0-1/05./5.4-mysql.md)
