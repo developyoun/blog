@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Home](README.md)
+* [Page 1](README.md)
+* [Home](<README (1).md>)
 * [Settings](settings/README.md)
   * [Mac에서 한글입력시 원화표시(₩) 대신 백쿼트(\`) 적용하기](settings/mac-krw.md)
   * [IntelliJ의 사용위치 알림 해제하기](settings/intellij.md)
